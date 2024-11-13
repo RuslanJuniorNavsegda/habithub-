@@ -1,9 +1,8 @@
 import React from 'react';
 
 const Header = () => (
-  <header>
-    <h1>Task Tracker</h1>
-    {/* Добавим навигацию позже */}
+  <header style={{ padding: '1rem', backgroundColor: '#333', color: '#fff', textAlign: 'center' }}>
+    <h1>HabitHub Tracker</h1>
   </header>
 );
 

@@ -1,16 +1,17 @@
 import React from 'react';
 import Header from '../components/Header';
-import TaskList from '../components/TaskList';
 import Footer from '../components/Footer';
 
-const Home = () => (
-  <div>
-    <Header />
-    <main>
-      <TaskList />
-    </main>
-    <Footer />
-  </div>
-);
-
-export default Home;
+export default function Home() {
+  return (
+    <div>
+      <Header />
+      <main style={{ padding: '1rem' }}>
+        <h2>Welcome to HabitHub</h2>
+        <p>Your personal task and habit tracker.</p>
+        {/* Здесь будет отображаться TaskList позже */}
+      </main>
+      <Footer />
+    </div>
+  );
+}
