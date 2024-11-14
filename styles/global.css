@@ -1,3 +1,5 @@
+@import "./themes.css";
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,7 +8,18 @@ body {
   color: #333;
 }
 
-h1, h2 {
+body.light {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+h1,
+h2 {
   margin: 0;
 }
 
