@@ -9,7 +9,7 @@ const Footer = () => (
       textAlign: "center",
     }}
   >
-    <p>&copy; {new Date().getFullYear()} HabitHub. All rights reserved.</p>
+    <p> {new Date().getFullYear()} HabitHub. All rights reserved.</p>
   </footer>
 );
 
